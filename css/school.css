@@ -1,0 +1,71 @@
+
+.cs-school {
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.cs-school .num {
+    font-size: 20px;
+    width: 30px;
+    color: #0088ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.cs-school .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.cs-school .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.cs-school .about {
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.cs-school .about .name {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cs-school .about .info-vote .score {
+    margin-right: 30px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.cs-school .about .info-vote .vote {
+    margin-right: 30px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.cs-school:last-child {
+    border-bottom: 0;
+}
+
+.cm-like {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+.cm-like  i {
+    opacity: 0.78;
+    font-size: 20px;
+    color: #90CAF9;
+    transition: 0.5s;
+}
+
+.cm-like:hover i{
+    opacity: 1;
+}

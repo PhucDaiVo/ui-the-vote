@@ -1,0 +1,246 @@
+.cs-container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1170px;
+}
+
+.cs-title-pane {
+	font-size: 20px;
+	display: flex;
+	font-weight: normal;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.cs-top-bar {
+	height: 50px;
+	background: #fff;
+	padding: 0 30px;
+	border: 1px solid #eee;
+}
+
+.cs-top-bar .cs-pane-menu {
+	height: 50px;
+}
+
+.cs-top-bar .cs-pane-menu ul {
+	height: 50px;
+	display: flex;
+}
+
+.cs-top-bar .cs-pane-menu ul li i {
+	display: block;
+}
+
+.cs-top-bar .cs-pane-menu ul li a {
+	min-width: 50px;
+	height: 50px;
+	padding: 0 10px;
+	line-height: 50px;
+	display: block;
+	cursor: pointer;
+	color: #fff;
+}
+
+.cs-button-nav-tab {
+	position: relative;
+}
+
+.cs-button-nav-tab .name {
+	display: block;
+	/* background: rgba(0, 0, 0, 0.025); */
+	padding: 10px 20px;
+	border: 0 solid #ddd;
+	border-radius: 2px;
+	cursor: pointer;
+	margin: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	position: relative;
+}
+
+.cs-button-nav-tab input {
+	background: red;
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1000;
+	opacity: 0;
+	;
+}
+
+.cs-button-nav-tab input:checked+.name {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #0088ce08;
+}
+
+.cs-tab-content {
+	margin: 5px;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cs-button-drop-down {
+	height: 30px;
+	min-width: 40px;
+	padding: 5px 10px;
+	background: #fff;
+	outline: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	position: relative;
+}
+
+.cs-button-drop-down .cs-button-panel {
+	width: 300px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	left: 0;
+	top: 100%;
+}
+
+.cs-button-drop-down .cs-button-panel ul li {
+	text-align: left;
+	padding: 5px 1px;
+}
+
+.cs-button-drop-down .cs-button-panel ul li:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.cs-button-drop-down .cs-button-panel ul li:active {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.cs-pane-search {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+	padding-bottom: 10px;
+}
+
+.cs-pane-search input {
+	border-radius: 2px;
+	border: none;
+	height: 30px;
+	padding: 0 10px;
+	outline: 0;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cs-pane-search button {
+	border-radius: 2px;
+	border: 0;
+	height: 30px;
+	outline: 0;
+	padding: 0 15px;
+	cursor: pointer;
+	background: #eee;
+	background: #fff;
+	margin-left: 5px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cs-pane-search button:active {
+	box-shadow: 0 !important;
+	background: rgba(0, 0, 0, 0.025);
+}
+
+.cs-vote {
+	background: #fff;
+	min-height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border-radius: 2px;
+	height: 10px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 100px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+}
+
+.cs-vote:hover {
+	background: #0088ce08;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.cs-scroll {
+	height: 200px;
+	overflow: auto;
+}
+
+.cs-scroll::-webkit-scrollbar {
+	width: 10px;
+}
+
+.cs-scroll::-webkit-scrollbar-track {
+	border-radius: 2px;
+}
+
+.cs-scroll::-webkit-scrollbar-thumb {
+	background: #eee;
+	border-radius: 5px;
+}
+
+.cs-scroll::-webkit-scrollbar-thumb:hover {
+	background: #f1f1f1;
+}
+
+.cs-nav-tab {
+	width: 200px;
+	;
+}
+
+.title-tab {
+	font-size: 16px;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	margin: 0 5px;
+	color: #0088ce;
+}
+
+.button-vote {
+	cursor: pointer;
+	position: relative;
+	height: max-content;
+}
+
+.button-vote input:checked+i {
+	color: #90CAF9;
+	border: 1px solid #90CAF9;
+}
+
+.button-vote input:checked+i::before {
+	display: block;
+}
+
+.button-vote input+i::before {
+	display: none;
+}
+
+.button-vote input {
+	position: absolute;
+	background: red;
+	opacity: 0;
+	top: 0;
+	margin: 0;
+	left: 0;
+}
+
+.button-vote i {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	color: #ddd;
+	font-size: 10px;
+}
