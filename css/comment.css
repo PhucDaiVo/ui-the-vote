@@ -1,0 +1,77 @@
+.cs-comment {
+    padding: 0 10px;
+}
+
+.cs-comment .cs-comment { 
+    padding-right: 0 !important;
+}
+
+.cs-comment .cs-comment .content { 
+    padding-right: 0 !important;
+}
+
+.cs-comment .item {
+    margin: 10px 0;
+}
+
+.cs-comment .item .logo {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.cs-comment .item .content {
+    padding: 0 10px;
+    width: 100%;
+    ;
+}
+
+.cs-comment .item .content .text-comment {
+    border: 1px solid #eee;
+    width: 100%;
+    height: 40px;
+    font-family: inherit;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.cs-comment .item .content .content-comment {
+    color: rgba(0, 0, 0, .6);
+    background: #eff1f3;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.cs-comment .item .content .date {
+    font-size: 12px;
+    margin: 0;
+    color: rgba(0, 0, 0, .6);
+}
+
+.cs-comment .item .content .user-name {
+    font-size: 13px;
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.cs-comment .item .content .re-send {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #365899;
+    padding: 0;
+    margin-right: 10px;
+    outline: 0;
+}
+
+.cs-comment .item .content .box-action {
+    margin: 2px 0;
+}
