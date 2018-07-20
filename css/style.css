@@ -244,3 +244,51 @@
 	color: #ddd;
 	font-size: 10px;
 }
+
+/* input */
+
+.cs-input {}
+
+.cs-input .input {
+	height: 40px;
+	outline: 0;
+	border: 1px solid #eee;
+	padding: 0 10px;
+	margin: 5px 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+.cs-input .input:focus {
+	border-color: #00bcd4;
+}
+
+.cs-input .title {
+	font-size: 15px;
+	font-weight: normal !important;
+	display: block;
+	margin-top: 10px;
+}
+
+.cs-input textarea.input {
+	height: 100px;
+	padding: 10px;
+}
+
+.button-group {
+	border-top: 1px solid #eee;
+	padding: 10px 20px;
+}
+
+.button-group button {
+	display: block;
+	height: 40px;
+	border-radius: 3px;
+	background: #0073b1;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	min-width: 80px;
+	color: #fff;
+	cursor: pointer;
+	outline: 0;
+}

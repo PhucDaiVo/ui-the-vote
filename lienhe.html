@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="cs-content">
+        <div class="cs-top-bar">
+            <div class="cs-pane-menu cs-flex flex-content-center">
+                <ul>
+                    <li>
+                        <a class="cs-flex flex-column" href="/Home">
+                            <i></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cs-flex flex-column" href="/Admin">
+                            <i></i>
+                            <span>Admin</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-news">
+            <div class="cs-container cs-flex">
+                <div class="cs-col-3 cs-p-10">
+                    <!-- Adv -->
+                    <div class="cs-card cs-p-5">
+                        <div class="cs-body">
+                            <img src="https://static.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg" alt="" style="width: 100%; font-size: 200px;">
+                        </div>
+                        <div class="cs-footer"></div>
+                    </div>
+                    <!-- End Adv -->
+                </div>
+                <div class="cs-col-6 cs-p-5">
+                    <div class="cs-card cs-m-5">
+                        <div class="cs-title">
+                            <h2 class="cs-name">
+                                Liên hệ
+                            </h2>
+                        </div>
+                        <div class="cs-body">
+                            <div class="cs-news-detail">
+                                <div class="cs-input">
+                                    <label for="" class="title">Tên</label>
+                                    <input class="input" type="text">
+                                </div>
+
+                                <div class="cs-input">
+                                    <label for="" class="title">Email</label>
+                                    <input class="input" type="text">
+                                </div>
+                                <div class="cs-input">
+                                    <label for="" class="title">Số điện thoại</label>
+                                    <input class="input" type="text">
+                                </div>
+                                <div class="cs-input">
+                                    <label for="" class="title">Trường</label>
+                                    <input class="input" type="text">
+                                </div>
+
+                                <div class="cs-input">
+                                    <label for="" class="title">Nội dung</label>
+                                    <textarea class="input" type="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="button-group">
+                                <button class="cs-ml-auto">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+                <script>
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute('reCAPTCHA_site_key', {
+                            action: 'homepage'
+                        }).then(function (token) {
+                         
+                        });
+                    });
+                </script>
+
+                <div class="cs-col-3 cs-p-10">
+                    <!-- Adv -->
+                    <div class="cs-card cs-p-5">
+                        <div class="cs-body">
+                            <img src="https://static.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg" alt="" style="width: 100%; font-size: 200px;">
+                        </div>
+                        <div class="cs-footer"></div>
+                    </div>
+                    <!-- End Adv -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
