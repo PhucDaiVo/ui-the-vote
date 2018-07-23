@@ -292,3 +292,67 @@
 	cursor: pointer;
 	outline: 0;
 }
+
+/* Profile School */
+
+.profile-school {
+	overflow: none !important;
+}
+
+.profile-school .image-wall {
+	padding-top: 25%;
+	background: #eee;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.profile-school .logo {
+	background-position: center;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	background: red;
+	bottom: -60px;
+	border-radius: 100px;
+	overflow: hidden;
+	border: 3px solid #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-left: 20px;
+}
+
+.profile-school .info {
+	padding: 70px 20px 20px 20px;
+}
+
+.profile-school .info .name-school {
+	margin: 0;
+	font-weight: normal
+}
+
+.profile-school .info .address {
+	font-size: 16px;
+}
+
+.profile-school .tool-button button {
+	height: 35px;
+	min-width: 80px;
+	background: #0073b1;
+	color: #fff;
+	outline: 0;
+	border-radius: 2px;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-school .tool-button {
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.profile-school .info .description {
+	font-size: 16px;
+	line-height: 26px;
+	padding: 10px 0;
+}
